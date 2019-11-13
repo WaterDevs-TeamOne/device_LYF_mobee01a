@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mobee01a.mk
+    $(LOCAL_DIR)/stag_mobee01a.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mobee01a-userdebug \
-    aosp_mobee01a-eng \
-    aosp_mobee01a-user
+    stag_mobee01a-userdebug \
+    stag_mobee01a-eng \
+    stag_mobee01a-user
