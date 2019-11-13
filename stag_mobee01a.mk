@@ -29,7 +29,7 @@ $(call inherit-product, vendor/stag/main.mk)
 # Official STAGOS
 BUILD_TYPE := OFFICIAL
 
-PRODUCT_NAME := one_mobee01a
+PRODUCT_NAME := stag_mobee01a
 BOARD_VENDOR := LYF
 PRODUCT_DEVICE := mobee01a
 
