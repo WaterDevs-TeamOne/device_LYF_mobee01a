@@ -24,8 +24,12 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 # Inherit from mobee01a device
 $(call inherit-product, device/LYF/mobee01a/device.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
-PRODUCT_NAME := aosp_mobee01a
+# Official STAGOS
+BUILD_TYPE := OFFICIAL
+
+PRODUCT_NAME := one_mobee01a
 BOARD_VENDOR := LYF
 PRODUCT_DEVICE := mobee01a
 
